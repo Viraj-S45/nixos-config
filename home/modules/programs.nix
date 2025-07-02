@@ -54,7 +54,7 @@ in
       virtualenv               # Python envs
       direnv
       python313Packages.aw-client  # ActivityWatch client
-      wl-screenrec
+      wf-recorder
 
     # ─────────────────────────────────────────────
     # 🌐 Web / Cloud / Network Tools
