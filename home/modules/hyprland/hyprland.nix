@@ -16,6 +16,7 @@
   ];
   home.packages = with pkgs; [
     pyprland
+    hyprsome
   ];
 
   wayland.windowManager = {
