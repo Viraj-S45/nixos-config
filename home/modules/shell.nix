@@ -12,11 +12,12 @@ in
     enable = true;
     package = pkgs.bashInteractive;
     enableCompletion = true;
-    yazi.enableBashIntegration = true;
-    fzf.enableBashIntegration = true;
+    # yazi.enableBashIntegration = true;
+    # fzf.enableBashIntegration = true;
     # bashrcExtra = ""
     # Aliases go here
     shellAliases = {
+      c = "clear";
       # Nix Package script command
       hpa = "/home/virajs/nixos-config/home/modules/scripts/try.sh home add";
       hpr = "/home/virajs/nixos-config/home/modules/scripts/try.sh home remove";
