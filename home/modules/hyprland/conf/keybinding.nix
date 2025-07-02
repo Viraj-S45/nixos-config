@@ -29,6 +29,7 @@
     "$mainMod, F, fullscreen,"
     "$mainMod, T, togglefloating,"
     "$mainMod, V, exec, cliphist list | rofi -dmenu -theme-str 'window {width: 50%;} listview {columns: 1;}' | cliphist decode | wl-copy"
+    "$mainMod, Q, exec, pkill wf-recorder && notify-send"
     "$mainMod CTRL, R, exec, hyprctl reload"
     "$mainMod, SPACE, exec, $menu"
     "$mainMod, Escape, exec, hyprlock"
