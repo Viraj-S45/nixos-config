@@ -48,7 +48,7 @@ in
     # ─────────────────────────────────────────────
       lazygit                  # Git TUI
       lazydocker               # Docker TUI
-#       fzf                      # zsh - Fuzzy finder
+      fzf                      # zsh - Fuzzy finder
 #       zoxide                   # zsh - Smarter cd command
       python313                # Python 3.13
       virtualenv               # Python envs

@@ -13,4 +13,6 @@ in
     sessionVariables = {};
   };
   programs.home-manager.enable = true;
+  programs.nix-index.enable = true;
+  programs.nix-index.enableBashIntegration = true;
 }

@@ -17,7 +17,7 @@ RES="1920x1080"
 # ✅ Your actual Bluetooth audio monitor
 AUDIO_SOURCE="bluez_output.B0_A3_F2_4D_9B_B0.1.monitor"
 
-notify-send "🎥 Screen Recording" "Recording started. Type 'stop' to stop."
+notify-send "🎥 Screen Recording" "Recording started."
 echo "Recording started. Type 'stop' to stop."
 
 wf-recorder \

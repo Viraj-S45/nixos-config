@@ -25,6 +25,7 @@ in
     modules-center = [ "clock" ];
     modules-right = [
       "tray"
+      "custom/record"
       "backlight"
       "cpu"
       "memory"
@@ -48,6 +49,13 @@ in
 
         # 🖱️ Right click: float + center overskride with Hyprland
         on-click-right = "hyprctl dispatch exec '[float; center; size 750 250] overskride'";
+      };
+    "custom/record" = {
+        interval = 2;
+        exec = "echo ' '";
+        on-click = "bash /home/virajs/nixos-config/home/modules/hyprland/scripts/record.sh";
+        on-click-right = "pkill wf-recorder && notify-send '🛑 Recording Stopped' 'Screen recording has been stopped.'";
+        tooltip = true;
       };
     backlight = {
       format = " {percent}%";
