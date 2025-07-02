@@ -104,6 +104,11 @@ in
       ncmpcpp                  # MPD client
       mpd                     # Music daemon
 
+    # wf-recorder gui dependencies
+      gtk4
+      libadwaita
+      rustup
+
 
   ];
 
