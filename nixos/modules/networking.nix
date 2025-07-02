@@ -58,4 +58,7 @@ in
   networking.wireless.iwd.enable = false;
   networking.networkmanager.enable = true;
 
+  # WOL
+  networking.interfaces.enp1s0.wakeOnLan.enable = true;
+
 }

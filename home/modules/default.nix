@@ -22,6 +22,7 @@ in
     ./git.nix
     ./emacs.nix
     ./gtk.nix
+    ./shell.nix
 
   ];
 
