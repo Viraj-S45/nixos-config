@@ -18,6 +18,8 @@ in
     # Aliases go here
     shellAliases = {
       c = "clear";
+      nenv = "nix-env -i";
+
       # Nix Package script command
       hpa = "/home/virajs/nixos-config/home/modules/scripts/try.sh home add";
       hpr = "/home/virajs/nixos-config/home/modules/scripts/try.sh home remove";
