@@ -104,7 +104,9 @@ in
       ncmpcpp                  # MPD client
       mpd                     # Music daemon
 
-    swayosd
+    
+    xdg-utils
+    zenity
     
 
 
