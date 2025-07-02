@@ -52,6 +52,7 @@ in
 #       zoxide                   # zsh - Smarter cd command
       python313                # Python 3.13
       virtualenv               # Python envs
+      direnv
       python313Packages.aw-client  # ActivityWatch client
 
     # ─────────────────────────────────────────────
