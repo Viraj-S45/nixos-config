@@ -5,6 +5,7 @@ in
   imports = [];
 
   home.packages = with pkgs; [
+  nodejs_24
   wakeonlan
     nps
     gemini-cli

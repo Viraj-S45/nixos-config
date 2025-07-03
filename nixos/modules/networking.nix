@@ -41,6 +41,9 @@ let
     "server.uptimekuma"
     "server.nexterm"
     "server.homepage"
+    "server.ariang"
+    "server.pelican"
+
 
 
   ];
