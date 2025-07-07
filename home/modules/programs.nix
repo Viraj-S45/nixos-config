@@ -5,6 +5,11 @@ in
   imports = [];
 
   home.packages = with pkgs; [
+  kicad
+  arduino-ide
+  arduino
+  fritzing
+  freecad-wayland
   nodejs_24
   wakeonlan
     nps

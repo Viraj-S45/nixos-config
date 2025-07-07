@@ -43,6 +43,7 @@ let
     "server.homepage"
     "server.ariang"
     "server.pelican"
+    "server.inventree"
 
 
 
