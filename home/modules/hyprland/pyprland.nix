@@ -14,7 +14,8 @@ in
     plugins = ["scratchpads"]
 
     [scratchpads.term]
-    command = "alacritty --class scratchpad"
+    command = "kitty --class scratchpad"
+    class = "scratchpad"
   '';
 
   
