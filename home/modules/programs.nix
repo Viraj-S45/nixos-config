@@ -5,6 +5,13 @@ in
   imports = [];
 
   home.packages = with pkgs; [
+  postman
+  yt-dlp
+  ffmpeg
+  vlc
+  imagemagick
+  bruno
+  hugo
   kicad
   arduino-ide
   arduino

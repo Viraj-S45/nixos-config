@@ -19,6 +19,11 @@ in
     shellAliases = {
       c = "clear";
       nenv = "nix-env -i";
+      pictures = "cd /home/virajs/Nextcloud/Pictures";
+      document = "cd /home/virajs/Nextcloud/Documents";
+      music = "cd /home/virajs/NextcloudMusic";
+      storage = "cd /home/virajs/Nextcloud/Storage";
+      videos = "cd /home/virajs/Nextcloud/Videos";      
 
       # Nix Package script command
       hpa = "/home/virajs/nixos-config/home/modules/scripts/try.sh home add";

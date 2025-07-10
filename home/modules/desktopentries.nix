@@ -21,7 +21,6 @@ in
       exec = "${browser} --app=https://web.whatsapp.com/";
       icon = "whatsapp";
       terminal = false;
-      categories = [ "Network" "InstantMessaging" ];
     };
     telegram = {
       name = "Telegram";
@@ -30,7 +29,6 @@ in
       exec = "${browser} --app=https://web.telegram.org/";
       icon = "telegram";
       terminal = false;
-      categories = [ "Network" "InstantMessaging" ];
     };
     vsserver= {
       name = "VSServer";
@@ -65,6 +63,22 @@ in
       comment = "Use Sony Liv like an app";
       exec = "${chromium} --app=https://www.sonyliv.com/";
       icon = "sonyliv";
+      terminal = false;
+    };
+    pw = {
+      name = "Physics Wallah";
+      genericName = "Web App";
+      comment = "Use Sony Liv like an app";
+      exec = "${chromium} --app=https://www.pw.live/study/batches/study";
+      icon = "sonyliv";
+      terminal = false;
+    };
+    kavita = {
+      name = "Kavita";
+      genericName = "Web App";
+      comment = "Use Kavita like an app";
+      exec = "${chromium} --app=https://server.kavita/";
+      icon = "kavita";
       terminal = false;
     };
   };
