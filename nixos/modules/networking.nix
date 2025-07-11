@@ -44,6 +44,7 @@ let
     "server.ariang"
     "server.pelican"
     "server.inventree"
+    "server.papra"
 
 
 

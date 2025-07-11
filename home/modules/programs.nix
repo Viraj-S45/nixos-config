@@ -5,6 +5,7 @@ in
   imports = [];
 
   home.packages = with pkgs; [
+  gitkraken
   postman
   yt-dlp
   ffmpeg
