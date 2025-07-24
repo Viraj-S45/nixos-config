@@ -81,6 +81,14 @@ in
       icon = "kavita";
       terminal = false;
     };
+    nptel = {
+      name = "NPTEL";
+      genericName = "Web App";
+      comment = "Use NPTEL like an app";
+      exec = "${chromium} --app=https://swayam.gov.in/mycourses";
+      icon = "nptel";
+      terminal = false;
+    };
   };
 
 
