@@ -5,6 +5,9 @@ in
   imports = [];
 
   home.packages = with pkgs; [
+  ganttproject-bin
+  gcc
+  xemu
   gitkraken
   postman
   yt-dlp

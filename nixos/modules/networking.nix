@@ -2,6 +2,8 @@
 let
   ip = "192.168.1.104";
   hostnames = [
+    "server.hedgedoc"
+    "server.docmost"
     "server.nextcloud"
     "server.notemark"
     "server.vikunja"
