@@ -5,6 +5,15 @@ in
   imports = [];
 
   home.packages = with pkgs; [
+  dbeaver-bin
+  pgadmin
+  google-chrome
+  zettlr
+  siyuan
+  nvpy
+  appimage-run
+  saber
+  marktext
   ganttproject-bin
   gcc
   xemu

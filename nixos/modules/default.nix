@@ -10,6 +10,7 @@
     ./hyprland.nix
     ./fonts.nix
     ./sslcert.nix
-    # ./virtualization.nix
+    ./virtualization.nix
+    ./sql.nix
   ];
 }
