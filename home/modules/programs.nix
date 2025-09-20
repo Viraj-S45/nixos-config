@@ -5,6 +5,11 @@ in
   imports = [];
 
   home.packages = with pkgs; [
+  rclone
+  flameshot
+  pcsx2
+  logseq
+  pgadmin4
   dbeaver-bin
   pgadmin
   google-chrome
