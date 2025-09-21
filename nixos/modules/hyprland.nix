@@ -1,5 +1,9 @@
-{ config, pkgs, lib, ... }:
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: {
   imports = [];
   environment.systemPackages = with pkgs; [
     xdg-desktop-portal-hyprland
@@ -21,34 +25,22 @@
   };
 
   security = {
-#       pam.services.login.kwallet = {
-#         forceRun = true;
-#         enable = true;
-#       };
-#       pam.services.sddm.kwallet = {
-#         forceRun = true;
-#         enable = true;
-#       };
-
-      polkit = {
-        enable = true;
-        package = pkgs.polkit;
-        debug = true;
-      };
+    polkit = {
+      enable = true;
+      package = pkgs.polkit;
+      debug = true;
     };
+  };
 
   hardware.alsa.enable = true;
   hardware.bluetooth.enable = true;
   xdg.portal.enable = true;
 
   programs = {
-     hyprland = {
-       enable = true;
-       package = pkgs.hyprland;
-       portalPackage = pkgs.xdg-desktop-portal-hyprland;
-     };
+    hyprland = {
+      enable = true;
+      package = pkgs.hyprland;
+      portalPackage = pkgs.xdg-desktop-portal-hyprland;
+    };
   };
-
-
-
 }

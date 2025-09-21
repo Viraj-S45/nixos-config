@@ -1,11 +1,13 @@
-{ config, pkgs, lib, ... }:
-let
-in
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: let
+in {
   imports = [];
 
   home.packages = with pkgs; [
-
   ];
 
   gtk = {
@@ -18,7 +20,6 @@ in
       name = lib.mkForce "Everforest-Dark";
       package = lib.mkForce pkgs.everforest-gtk-theme;
     };
-
   };
   qt = {
     enable = true;
@@ -29,6 +30,4 @@ in
       name = lib.mkForce "gtk2";
     };
   };
-
-
 }

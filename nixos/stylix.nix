@@ -1,5 +1,9 @@
-{ config, pkgs, lib, ... }:
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: {
   imports = [];
   stylix = {
     enable = true;
@@ -23,7 +27,5 @@
         name = "Noto Color Emoji";
       };
     };
-
   };
-
 }

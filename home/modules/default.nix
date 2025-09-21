@@ -1,10 +1,12 @@
-{ config, pkgs, lib, ... }:
-let
-in
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: let
+in {
   imports = [
     ./hyprland
-    ./gnome.nix
     ./browser.nix
     ./programs.nix
     ./rofi.nix
@@ -23,12 +25,9 @@ in
     ./emacs.nix
     ./gtk.nix
     ./shell.nix
-
   ];
 
   home.packages = with pkgs; [
     kdePackages.kate
-
   ];
-
 }

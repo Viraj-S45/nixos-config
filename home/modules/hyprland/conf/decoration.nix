@@ -1,17 +1,18 @@
-{ config, pkgs, lib, ... }:
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: {
   imports = [
-
   ];
   home.packages = with pkgs; [
-
   ];
-
 
   wayland.windowManager.hyprland.settings = {
     decoration = {
       rounding = 10;
-      active_opacity = 1.0;
+      active_opacity = 0.9;
       inactive_opacity = 0.8;
       fullscreen_opacity = 1.0;
       blur = {
@@ -33,15 +34,6 @@
         render_power = 3;
         color = lib.mkForce "rgba(00000055)";
       };
-
-
-      };
     };
-
-
-
-
-
-
-
+  };
 }

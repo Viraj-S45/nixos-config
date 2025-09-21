@@ -1,11 +1,13 @@
-{ config, pkgs, lib, ... }:
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: {
   imports = [];
 
-  services.xserver = {  
+  services.xserver = {
     displayManager.gdm.enable = true;
     desktopManager.gnome.enable = true;
   };
-
-
 }

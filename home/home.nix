@@ -1,7 +1,11 @@
-{ config, pkgs, lib, imports, ... }:
-let
-in
 {
+  config,
+  pkgs,
+  lib,
+  imports,
+  ...
+}: let
+in {
   imports = [
     ./modules
   ];

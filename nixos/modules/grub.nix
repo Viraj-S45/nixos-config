@@ -1,20 +1,22 @@
-{ config, pkgs, lib, ... }:
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: {
   imports = [];
 
   boot.loader = {
     efi.canTouchEfiVariables = true;
     grub = {
       enable = true;
-      devices = [ "nodev" ];
+      devices = ["nodev"];
       efiSupport = true;
       useOSProber = true;
-
     };
   };
   systemd.services."getty@tty1".enable = false;
   # Optional: Smooth visual boot
-  boot.kernelParams = [ "quiet" "splash" ];
-  boot.plymouth.enable = true;    
-
+  boot.kernelParams = ["quiet"];
+  boot.plymouth.enable = false;
 }

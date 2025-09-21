@@ -1,12 +1,13 @@
-{ config, pkgs, lib, ... }:
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: {
   imports = [
-
   ];
   home.packages = with pkgs; [
-
   ];
-
 
   programs.kitty = {
     enable = true;
@@ -18,17 +19,10 @@
     themeFile = "everforest_dark_hard";
     settings = {
       confirm_os_window_close = 0;
-#       background_opacity = "0.8";
       scrollback_lines = 10000;
       enable_audio_bell = false;
       mouse_hide_wait = 60;
       window_padding_width = 5;
     };
-
-
-
   };
-
-
-
 }

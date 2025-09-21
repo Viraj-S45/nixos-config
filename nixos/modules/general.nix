@@ -1,5 +1,9 @@
-{ config, pkgs, lib, ... }:
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: {
   imports = [];
 
   # Allow unfree
@@ -20,6 +24,5 @@
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
 
-  services.xserver.enable = true; 
-
+  services.xserver.enable = true;
 }

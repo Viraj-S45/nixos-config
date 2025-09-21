@@ -1,7 +1,10 @@
-{ config, pkgs, lib, ... }:
-let
-in
 {
+  config,
+  pkgs,
+  lib,
+  ...
+}: let
+in {
   imports = [];
 
   home.packages = with pkgs; [
@@ -23,7 +26,7 @@ in
       document = "cd /home/virajs/Nextcloud/Documents";
       music = "cd /home/virajs/NextcloudMusic";
       storage = "cd /home/virajs/Nextcloud/Storage";
-      videos = "cd /home/virajs/Nextcloud/Videos";      
+      videos = "cd /home/virajs/Nextcloud/Videos";
 
       # Nix Package script command
       hpa = "/home/virajs/nixos-config/home/modules/scripts/try.sh home add";
@@ -61,7 +64,7 @@ in
       drs = "docker container restart";
       dstp = "docker container stop";
       dvls = "docker volume ls";
-      dxc = "docker container exec";  
+      dxc = "docker container exec";
 
       # Git aliases
       ga = "git add";
@@ -69,24 +72,19 @@ in
       grao = "git remote add origin";
       gpu = "git push -u";
       gsb = "git status --short -b";
-      gi = "git init";      
+      gi = "git init";
 
-    # Python/pip aliases
-    pipi = "pip install";
-    pipu = "pip install --upgrade";
-    pipun = "pip uninstall";
-    pipgi = "pip freeze | grep";
-    pipreq = "pip freeze > requirements.txt";
-    pipir = "pip install -r requirements.txt";
+      # Python/pip aliases
+      pipi = "pip install";
+      pipu = "pip install --upgrade";
+      pipun = "pip uninstall";
+      pipgi = "pip freeze | grep";
+      pipreq = "pip freeze > requirements.txt";
+      pipir = "pip install -r requirements.txt";
 
-    # Python virtual environment
-    mkvenv = "python -m venv venv";
-    actvenv = "source venv/bin/activate";
-
-
-
+      # Python virtual environment
+      mkvenv = "python -m venv venv";
+      actvenv = "source venv/bin/activate";
     };
-
   };
-
 }

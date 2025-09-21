@@ -1,12 +1,12 @@
-{ config, pkgs, ... }:
 {
+  config,
+  pkgs,
+  ...
+}: {
   imports = [
-
   ];
   home.packages = with pkgs; [
-
   ];
-
 
   wayland.windowManager.hyprland.settings = {
     windowrule = [
@@ -25,15 +25,6 @@
       "nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0"
       "float, class:^(com.nextcloud.desktopclient.nextcloud)$"
       "float, class:^(Bitwarden)$"
-
-
     ];
   };
-
-
-
-
-
-
-
 }

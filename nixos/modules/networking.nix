@@ -1,5 +1,9 @@
-{ config, pkgs, lib, ... }:
-let
+{
+  config,
+  pkgs,
+  lib,
+  ...
+}: let
   ip = "192.168.1.104";
   hostnames = [
     "server.hedgedoc"
@@ -50,13 +54,9 @@ let
     "server.pelican"
     "server.inventree"
     "server.papra"
-
-
-
   ];
   combinedHostEntry = "${ip} " + lib.concatStringsSep " " hostnames;
-in
-{
+in {
   imports = [];
   # Hostname
   networking.hostName = "virajs";
@@ -70,5 +70,4 @@ in
 
   # WOL
   networking.interfaces.enp1s0.wakeOnLan.enable = true;
-
 }

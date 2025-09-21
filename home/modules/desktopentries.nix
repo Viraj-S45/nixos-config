@@ -1,19 +1,18 @@
-{ config, pkgs, lib, ... }:
-let
+{
+  config,
+  pkgs,
+  lib,
+  ...
+}: let
   browser = pkgs.lib.getExe pkgs.brave;
   chromium = pkgs.lib.getExe pkgs.chromium;
-in
-{
+in {
   imports = [
-
   ];
   home.packages = with pkgs; [
-
   ];
 
-
   xdg.desktopEntries = {
-
     whatsapp-web = {
       name = "WhatsApp Web";
       genericName = "Web App";
@@ -30,25 +29,23 @@ in
       icon = "telegram";
       terminal = false;
     };
-    vsserver= {
+    vsserver = {
       name = "VSServer";
       genericName = "Web App";
       comment = "Use VS Code like an app";
       exec = "${browser} --app=https://server.vscode/";
       icon = "vscode";
       terminal = false;
-
     };
-    udemy= {
+    udemy = {
       name = "Udemy";
       genericName = "Web App";
       comment = "Use Udemy like an app";
       exec = "${browser} --app=\"https://www.udemy.com/join/login-popup/?passwordredirect=True\"";
       icon = "udemy";
       terminal = false;
-
     };
-#    https://www.sonyliv.com/
+
     jupyterhub = {
       name = "Jupyter Hub";
       genericName = "Web App";
@@ -90,13 +87,4 @@ in
       terminal = false;
     };
   };
-
-
-
-
-
-
-
-
-
 }
