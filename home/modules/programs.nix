@@ -8,6 +8,11 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  gh
+  git-hub
+  kdePackages.kdeconnect-kde
+  docker-compose
+  gnumake
     alejandra
     rclone
     flameshot
