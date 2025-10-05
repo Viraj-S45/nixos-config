@@ -15,6 +15,7 @@
       userEmail = "virajs45@proton.me";
       extraConfig = {
         init.defaultBranch = "main";
+        pull.rebase = false;
       };
     };
     gitui.enable = true; # terminal UI

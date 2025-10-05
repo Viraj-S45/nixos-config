@@ -8,6 +8,9 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  python313Packages.jupyterhub
+  mitmproxy2swagger
+  mitmproxy
   gh
   git-hub
   kdePackages.kdeconnect-kde
