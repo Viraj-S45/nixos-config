@@ -15,6 +15,10 @@ in {
     enable = true;
     package = pkgs.bashInteractive;
     enableCompletion = true;
+      # Add this:
+    bashrcExtra = ''
+      export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
+    '';
     # yazi.enableBashIntegration = true;
     # fzf.enableBashIntegration = true;
     # bashrcExtra = ""
@@ -80,10 +84,11 @@ in {
       pipun = "pip uninstall";
       pipgi = "pip freeze | grep";
       pipreq = "pip freeze > requirements.txt";
-      pipir = "pip install -r requirements.txt";
+      pipir = "pip install --no-cache-dir -r requirements.txt";
 
       # Python virtual environment
       mkvenv = "python -m venv venv";
+      rmvenv = "rm -rf venv";
       actvenv = "source venv/bin/activate";
     };
   };

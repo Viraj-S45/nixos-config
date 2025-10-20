@@ -8,14 +8,22 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
-  python313Packages.jupyterhub
-  mitmproxy2swagger
-  mitmproxy
-  gh
-  git-hub
-  kdePackages.kdeconnect-kde
-  docker-compose
-  gnumake
+  zellij
+    python313Packages.tkinter
+    pyenv
+    opencommit
+    httptoolkit
+    jadx
+    apktool
+    python313 # Python 3.13
+    python313Packages.jupyterhub
+    mitmproxy2swagger
+    mitmproxy
+    gh
+    git-hub
+    kdePackages.kdeconnect-kde
+    docker-compose
+    gnumake
     alejandra
     rclone
     flameshot
@@ -95,7 +103,6 @@ in {
     lazydocker # Docker TUI
     fzf # zsh - Fuzzy finder
     #       zoxide                   # zsh - Smarter cd command
-    python313 # Python 3.13
     virtualenv # Python envs
     direnv
     python313Packages.aw-client # ActivityWatch client
