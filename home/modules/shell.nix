@@ -9,6 +9,9 @@ in {
 
   home.packages = with pkgs; [
     yazi
+    bash-preexec
+    bash-completion
+    bash-language-server
   ];
 
   programs.bash = {

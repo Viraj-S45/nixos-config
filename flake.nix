@@ -7,7 +7,7 @@
       url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    stylix.url = "github:danth/stylix/67c8eca32f1baf158ffb9a56f28a2fc8e9852fb0";
+    stylix.url = "github:danth/stylix/release-25.05";
   };
 
   outputs = {

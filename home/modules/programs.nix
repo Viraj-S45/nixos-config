@@ -8,6 +8,7 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  windsurf
   zellij
     python313Packages.tkinter
     pyenv

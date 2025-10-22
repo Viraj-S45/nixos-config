@@ -12,5 +12,6 @@
     ./sslcert.nix
     ./virtualization.nix
     ./sql.nix
+    ./flatpack.nix
   ];
 }
