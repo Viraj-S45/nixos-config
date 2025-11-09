@@ -19,4 +19,5 @@ in {
   programs.home-manager.enable = true;
   programs.nix-index.enable = true;
   programs.nix-index.enableBashIntegration = true;
+  stylix.targets.kitty.enable = false;
 }

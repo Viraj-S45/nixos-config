@@ -12,7 +12,6 @@
     packages = with pkgs; [
       tree
       git
-      neovim
       networkmanagerapplet
       networkmanager
     ];

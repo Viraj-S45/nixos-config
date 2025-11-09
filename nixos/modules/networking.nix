@@ -7,6 +7,10 @@
   ip = "192.168.1.104";
   hostnames = [
     "server.hedgedoc"
+    "server.mydylms"
+    "server.librechat"
+    "server.ollama-1b"
+    "server.ollama-3b"
     "server.manynotes"
     "server.docmost"
     "server.nextcloud"

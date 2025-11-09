@@ -8,6 +8,21 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  notion-app
+  chromedriver
+  pyright
+  ruff
+  lua-language-server
+  lua
+  lua51Packages.luarocks
+  libffi
+  zlib
+  ncurses
+
+  readline
+  neovim
+  python312Packages.jupyterlab
+  vscode
   windsurf
   zellij
     python313Packages.tkinter
@@ -119,7 +134,6 @@ in {
     discord # Chat app
     spotify # Music streaming
     github-desktop # GitHub GUI
-    vscodium # Open-source VS Code
     chromium # Web browser
 
     # ─────────────────────────────────────────────
