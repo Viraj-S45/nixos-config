@@ -21,6 +21,7 @@ in {
       # Add this:
     bashrcExtra = ''
       export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
+      export PATH=~/bin:$PATH
     '';
     # yazi.enableBashIntegration = true;
     # fzf.enableBashIntegration = true;

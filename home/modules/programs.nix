@@ -8,7 +8,12 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
-  notion-app
+  yaak
+  coursera-dl
+  openssl
+  pomodoro-gtk
+  uv
+  docker-buildx
   chromedriver
   pyright
   ruff
