@@ -8,6 +8,7 @@
   hostnames = [
     "server.hedgedoc"
     "server.mydylms"
+    "server.uniclare"
     "server.whisperx"
     "server.coder"
     "server.librechat"

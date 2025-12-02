@@ -89,6 +89,8 @@ in {
       pipgi = "pip freeze | grep";
       pipreq = "pip freeze > requirements.txt";
       pipir = "pip install --no-cache-dir -r requirements.txt";
+      pipid = "pip install --no-cache-dir -r requirements/dev.txt";
+      pipib = "pip install --no-cache-dir -r requirements/base.txt";
 
       # Python virtual environment
       mkvenv = "python -m venv venv";

@@ -16,7 +16,7 @@
       name = lib.mkForce "JetBrainsMono Nerd Font Mono";
       size = lib.mkForce 14;
     };
-    themeFile = "everforest_dark_hard";
+    themeFile = "Catppuccin-Mocha";
     settings = {
       confirm_os_window_close = 0;
       scrollback_lines = 10000;

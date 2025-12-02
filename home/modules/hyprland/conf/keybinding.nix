@@ -39,6 +39,8 @@
     "$mainMod SHIFT, W,exec, hyprctl dispatch exec '[float; size 925 615] waypaper'"
     "ALT, Return, exec, pypr toggle term"
     "ALT SHIFT, Return, exec, pypr toggle altterm"
+    "$mainMod, U, exec, pypr expose"
+
 
 
     # audio

@@ -1,0 +1,215 @@
+﻿Diagnose log at 2025-11-19T18:47:58Z
+
+AppPath: /etc/profiles/per-user/virajs/bin/git-credential-manager
+InstallDir: /nix/store/7c0q7drj403vcbnqr00k8xdg95an9yyl-git-credential-manager-2.6.1/lib/git-credential-manager/
+Version: 2.6.1
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Linux
+OSVersion: NixOS 25.05 (Warbler)
+Reading environment variables... OK
+ Variables:
+HOME=/home/virajs
+QTWEBKIT_PLUGIN_PATH=/home/virajs/.local/share/flatpak/exports/lib/mozilla/plugins/:/var/lib/flatpak/exports/lib/mozilla/plugins/:/home/virajs/.nix-profile/lib/mozilla/plugins/:/nix/profile/lib/mozilla/plugins/:/home/virajs/.local/state/nix/profile/lib/mozilla/plugins/:/etc/profiles/per-user/virajs/lib/mozilla/plugins/:/nix/var/nix/profiles/default/lib/mozilla/plugins/:/run/current-system/sw/lib/mozilla/plugins/
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+NIX_PATH=/home/virajs/.nix-defexpr/channels:nixpkgs=flake:nixpkgs:/nix/var/nix/profiles/per-user/root/channels
+XDG_CONFIG_DIRS=/etc/xdg:/home/virajs/.local/share/flatpak/exports/etc/xdg:/var/lib/flatpak/exports/etc/xdg:/home/virajs/.nix-profile/etc/xdg:/nix/profile/etc/xdg:/home/virajs/.local/state/nix/profile/etc/xdg:/etc/profiles/per-user/virajs/etc/xdg:/nix/var/nix/profiles/default/etc/xdg:/run/current-system/sw/etc/xdg
+USER=virajs
+XDG_CURRENT_DESKTOP=Hyprland
+QT_STYLE_OVERRIDE=adwaita-dark
+GDM_LANG=en_US.UTF-8
+DOTNET_ROOT=/nix/store/bb1rvbxv7pihsd25jqpz2ym5g99xxizj-dotnet-runtime-wrapped-8.0.21/share/dotnet
+XCURSOR_SIZE=24
+HL_INITIAL_WORKSPACE_TOKEN=81625c59-eb93-49ae-9cf2-9bcaf486262d
+QT_QPA_PLATFORMTHEME=gnome
+TERMINFO=/nix/store/q0yj7xk4kzrzmsdfihgilhn8ag0xr7sm-kitty-0.42.1/lib/kitty/terminfo
+DESKTOP_SESSION=hyprland
+XDG_BACKEND=wayland
+QT_PLUGIN_PATH=/home/virajs/.local/share/flatpak/exports/lib/qt-5.15.17/plugins:/home/virajs/.local/share/flatpak/exports/lib/qt-6/plugins:/var/lib/flatpak/exports/lib/qt-5.15.17/plugins:/var/lib/flatpak/exports/lib/qt-6/plugins:/home/virajs/.nix-profile/lib/qt-5.15.17/plugins:/home/virajs/.nix-profile/lib/qt-6/plugins:/nix/profile/lib/qt-5.15.17/plugins:/nix/profile/lib/qt-6/plugins:/home/virajs/.local/state/nix/profile/lib/qt-5.15.17/plugins:/home/virajs/.local/state/nix/profile/lib/qt-6/plugins:/etc/profiles/per-user/virajs/lib/qt-5.15.17/plugins:/etc/profiles/per-user/virajs/lib/qt-6/plugins:/nix/var/nix/profiles/default/lib/qt-5.15.17/plugins:/nix/var/nix/profiles/default/lib/qt-6/plugins:/run/current-system/sw/lib/qt-5.15.17/plugins:/run/current-system/sw/lib/qt-6/plugins
+OLDPWD=/home/virajs/nixos-config/home
+SHLVL=1
+NIXPKGS_CONFIG=/etc/nix/nixpkgs-config.nix
+COLORTERM=truecolor
+XDG_DATA_DIRS=/nix/store/nmgh4491415yj8v3pa9kaxgfz5kh1maf-gnome-mimeapps/share:/nix/store/hijqhcfnhjxzx0gnqq570pf6pdgv45jb-desktops/share:/home/virajs/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/home/virajs/.nix-profile/share:/nix/profile/share:/home/virajs/.local/state/nix/profile/share:/etc/profiles/per-user/virajs/share:/nix/var/nix/profiles/default/share:/run/current-system/sw/share:/nix/store/4hxjam04ffjpzbzbxv43faxngl56yxav-gnome-shell-48.2/share/gsettings-schemas/gnome-shell-48.2
+LESSKEYIN_SYSTEM=/nix/store/1zjd1yfm87csrgwvvrkl935j3nh82dlj-lessconfig
+PWD=/home/virajs/nixos-config/home/modules
+LANG=en_US.UTF-8
+INFOPATH=/home/virajs/.local/share/flatpak/exports/info:/home/virajs/.local/share/flatpak/exports/share/info:/var/lib/flatpak/exports/info:/var/lib/flatpak/exports/share/info:/home/virajs/.nix-profile/info:/home/virajs/.nix-profile/share/info:/nix/profile/info:/nix/profile/share/info:/home/virajs/.local/state/nix/profile/info:/home/virajs/.local/state/nix/profile/share/info:/etc/profiles/per-user/virajs/info:/etc/profiles/per-user/virajs/share/info:/nix/var/nix/profiles/default/info:/nix/var/nix/profiles/default/share/info:/run/current-system/sw/info:/run/current-system/sw/share/info
+_JAVA_AWT_WM_NONREPARENTING=1
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+XDG_SEAT=seat0
+QML2_IMPORT_PATH=/home/virajs/.local/share/flatpak/exports/lib/qt-5.15.17/qml:/home/virajs/.local/share/flatpak/exports/lib/qt-6/qml:/var/lib/flatpak/exports/lib/qt-5.15.17/qml:/var/lib/flatpak/exports/lib/qt-6/qml:/home/virajs/.nix-profile/lib/qt-5.15.17/qml:/home/virajs/.nix-profile/lib/qt-6/qml:/nix/profile/lib/qt-5.15.17/qml:/nix/profile/lib/qt-6/qml:/home/virajs/.local/state/nix/profile/lib/qt-5.15.17/qml:/home/virajs/.local/state/nix/profile/lib/qt-6/qml:/etc/profiles/per-user/virajs/lib/qt-5.15.17/qml:/etc/profiles/per-user/virajs/lib/qt-6/qml:/nix/var/nix/profiles/default/lib/qt-5.15.17/qml:/nix/var/nix/profiles/default/lib/qt-6/qml:/run/current-system/sw/lib/qt-5.15.17/qml:/run/current-system/sw/lib/qt-6/qml
+MOZ_ENABLE_WAYLAND=1
+LOGNAME=virajs
+__NIXOS_SET_ENVIRONMENT_DONE=1
+__ETC_PROFILE_DONE=1
+HYPRCURSOR_THEME=Bibata-Modern-Ice
+NIX_XDG_DESKTOP_PORTAL_DIR=/run/current-system/sw/share/xdg-desktop-portal/portals
+XDG_SESSION_CLASS=user
+DISPLAY=:0
+GDMSESSION=hyprland
+NIX_GSETTINGS_OVERRIDES_DIR=/nix/store/h8n3dh9d52033l56jbyxaknnja24j6vc-gnome-gsettings-overrides/share/gsettings-schemas/nixos-gsettings-overrides/glib-2.0/schemas
+HYPRCURSOR_SIZE=24
+ALSA_AUDIO_IN=
+EDITOR=nano
+TZDIR=/etc/zoneinfo
+NIX_PROFILES=/run/current-system/sw /nix/var/nix/profiles/default /etc/profiles/per-user/virajs /home/virajs/.local/state/nix/profile /nix/profile /home/virajs/.nix-profile /var/lib/flatpak/exports /home/virajs/.local/share/flatpak/exports
+KITTY_WINDOW_ID=1
+LIBEXEC_PATH=/home/virajs/.local/share/flatpak/exports/libexec:/var/lib/flatpak/exports/libexec:/home/virajs/.nix-profile/libexec:/nix/profile/libexec:/home/virajs/.local/state/nix/profile/libexec:/etc/profiles/per-user/virajs/libexec:/nix/var/nix/profiles/default/libexec:/run/current-system/sw/libexec
+GDM_X_SERVER_EXTRA_ARGS=-config /nix/store/cmcyw67amrwfwjsiwjai0bq27vplzzc6-xserver.conf -xkbdir /nix/store/f4bj1653m7r57v1ixb8z4rh11fvpgykg-xkeyboard-config-2.44/etc/X11/xkb -logfile /dev/null -nolisten tcp
+ALSA_AUDIO_OUT=
+LD_LIBRARY_PATH=/nix/store/girp43cxvqpjq4ad56r8girsq8na5bxh-icu4c-76.1/lib:/nix/store/dj06r96j515npcqi9d8af1d1c60bx2vn-gcc-14.3.0-lib/lib:/nix/store/ig6pigsqc8hycanp3x2fihxp2jdm6jvr-pipewire-1.4.7-jack/lib:/nix/store/9z70y0jwvpb6ibdr7p5df0yc1y59jmyn-libICE-1.1.2/lib:/nix/store/pxxs8yq2yqhn7xdrvbvbg8m3dw5g61bh-libSM-1.2.5/lib:/nix/store/ayswhp8g569mhb0gbgxrvqw53hsq59mz-libX11-1.8.12/lib:/nix/store/dy7h786jp7037rcpf6935r2z7id74cmb-libsecret-0.21.7/lib
+XDG_SESSION_ID=2
+XDG_SESSION_DESKTOP=hyprland
+NAUTILUS_4_EXTENSION_DIR=/nix/store/669d21hafkasw2a94wk5vbxq35lm3my0-system-path/lib/nautilus/extensions-4
+NIX_USER_PROFILE_DIR=/nix/var/nix/profiles/per-user/virajs
+TERMINFO_DIRS=/home/virajs/.local/share/flatpak/exports/share/terminfo:/var/lib/flatpak/exports/share/terminfo:/home/virajs/.nix-profile/share/terminfo:/nix/profile/share/terminfo:/home/virajs/.local/state/nix/profile/share/terminfo:/etc/profiles/per-user/virajs/share/terminfo:/nix/var/nix/profiles/default/share/terminfo:/run/current-system/sw/share/terminfo
+USERNAME=virajs
+GIT_EXEC_PATH=/nix/store/v2rxk9xkcxsas64wl7ds31al15cm2wqd-git-2.50.1/libexec/git-core
+SHELL=/run/current-system/sw/bin/bash
+XDG_RUNTIME_DIR=/run/user/1000
+HYPRLAND_CMD=/etc/profiles/per-user/virajs/bin/Hyprland
+HYPRLAND_INSTANCE_SIGNATURE=9958d297641b5c84dcff93f9039d80a5ad37ab00_1763533113_1773800098
+KITTY_PID=51303
+GTK_PATH=/home/virajs/.local/share/flatpak/exports/lib/gtk-2.0:/home/virajs/.local/share/flatpak/exports/lib/gtk-3.0:/home/virajs/.local/share/flatpak/exports/lib/gtk-4.0:/var/lib/flatpak/exports/lib/gtk-2.0:/var/lib/flatpak/exports/lib/gtk-3.0:/var/lib/flatpak/exports/lib/gtk-4.0:/home/virajs/.nix-profile/lib/gtk-2.0:/home/virajs/.nix-profile/lib/gtk-3.0:/home/virajs/.nix-profile/lib/gtk-4.0:/nix/profile/lib/gtk-2.0:/nix/profile/lib/gtk-3.0:/nix/profile/lib/gtk-4.0:/home/virajs/.local/state/nix/profile/lib/gtk-2.0:/home/virajs/.local/state/nix/profile/lib/gtk-3.0:/home/virajs/.local/state/nix/profile/lib/gtk-4.0:/etc/profiles/per-user/virajs/lib/gtk-2.0:/etc/profiles/per-user/virajs/lib/gtk-3.0:/etc/profiles/per-user/virajs/lib/gtk-4.0:/nix/var/nix/profiles/default/lib/gtk-2.0:/nix/var/nix/profiles/default/lib/gtk-3.0:/nix/var/nix/profiles/default/lib/gtk-4.0:/run/current-system/sw/lib/gtk-2.0:/run/current-system/sw/lib/gtk-3.0:/run/current-system/sw/lib/gtk-4.0
+LOCALE_ARCHIVE=/run/current-system/sw/lib/locale/locale-archive
+PAGER=less
+XCURSOR_PATH=/home/virajs/.icons:/home/virajs/.local/share/icons:/home/virajs/.local/share/flatpak/exports/share/icons:/home/virajs/.local/share/flatpak/exports/share/pixmaps:/var/lib/flatpak/exports/share/icons:/var/lib/flatpak/exports/share/pixmaps:/home/virajs/.nix-profile/share/icons:/home/virajs/.nix-profile/share/pixmaps:/nix/profile/share/icons:/nix/profile/share/pixmaps:/home/virajs/.local/state/nix/profile/share/icons:/home/virajs/.local/state/nix/profile/share/pixmaps:/etc/profiles/per-user/virajs/share/icons:/etc/profiles/per-user/virajs/share/pixmaps:/nix/var/nix/profiles/default/share/icons:/nix/var/nix/profiles/default/share/pixmaps:/run/current-system/sw/share/icons:/run/current-system/sw/share/pixmaps
+KITTY_INSTALLATION_DIR=/nix/store/q0yj7xk4kzrzmsdfihgilhn8ag0xr7sm-kitty-0.42.1/lib/kitty
+LOCALE_ARCHIVE_2_27=/nix/store/yczfclil9jjhcbdy1a6rqinihmfdzcz3-glibc-locales-2.40-66/lib/locale/locale-archive
+PATH=/nix/store/v2rxk9xkcxsas64wl7ds31al15cm2wqd-git-2.50.1/bin:/nix/store/fdfasp6d120bz4v57wz94fra9x6m4hpb-gnupg-2.4.8/bin:/nix/store/z0pacbcz39xk8bb5slmy1wc61fspwal9-password-store-1.7.4/bin:/nix/store/bb1rvbxv7pihsd25jqpz2ym5g99xxizj-dotnet-runtime-wrapped-8.0.21/bin:/nix/store/v2rxk9xkcxsas64wl7ds31al15cm2wqd-git-2.50.1/libexec/git-core:/home/virajs/bin:/run/wrappers/bin:/home/virajs/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/home/virajs/.nix-profile/bin:/nix/profile/bin:/home/virajs/.local/state/nix/profile/bin:/etc/profiles/per-user/virajs/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin
+SSH_ASKPASS=/nix/store/zkfns53mihmdbqdl4yd7njsqj5r3a1cc-seahorse-47.0.1/libexec/seahorse/ssh-askpass
+TERM=xterm-kitty
+GIT_TRACE2_PARENT_SID=7728921d-39db-4e8b-8291-9eadfdb5019c
+WAYLAND_DISPLAY=wayland-1
+GIO_EXTRA_MODULES=/nix/store/0a2kbdrcsnmll5jndv98g63y83jzwhzi-gvfs-1.57.2/lib/gio/modules:/nix/store/p39njlszwwxbb0xa5q0cq30d5r6z36ln-glib-networking-2.80.1/lib/gio/modules:/nix/store/01jcw6s452h4rsp5pzqikc3rbvn02dhk-dconf-0.40.0-lib/lib/gio/modules
+KITTY_PUBLIC_KEY=1:nO1=>nwbJ4ULvP*{)C0F4{RU|PezI<08Yy63}T9L
+XDG_VTNR=2
+XCURSOR_THEME=Bibata-Modern-Ice
+XDG_SESSION_TYPE=wayland
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/tmp/'...
+Checking basic file I/O...
+Writing to temporary file '/tmp/f392419cb3232db6dad384e1'... OK
+Reading from temporary file '/tmp/f392419cb3232db6dad384e1'... OK
+Deleting temporary file '/tmp/f392419cb3232db6dad384e1'... OK
+Testing IFileSystem instance...
+UserHomePath: /home/virajs
+UserDataDirectoryPath: /home/virajs/.gcm
+GetCurrentDirectory(): /home/virajs/nixos-config/home/modules
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:44725/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.50.1'
+Locating current repository...Git repository at '/home/virajs/nixos-config/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:/home/virajs/.config/git/config	credential.helper=/nix/store/s8v64na89yy24dbl44mdk658y1lafrk1-git-credential-oauth-0.15.1/bin/git-credential-oauth
+file:/home/virajs/.config/git/config	init.defaultbranch=main
+file:/home/virajs/.config/git/config	pull.rebase=false
+file:/home/virajs/.config/git/config	user.email=virajs45@proton.me
+file:/home/virajs/.config/git/config	user.name=viraj-sh
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/Viraj-S45/nixos-config.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	lfs.repositoryformatversion=0
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	branch.main.vscode-merge-base=origin/main
+file:.git/config	user.name=Viraj-S45
+file:.git/config	user.email=virajshirodkar45@gmail.com
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: False
+Exception:
+System.Exception: No credential store has been selected.
+
+Set the GCM_CREDENTIAL_STORE environment variable or the credential.credentialStore Git configuration setting to one of the following options:
+
+  secretservice : freedesktop.org Secret Service (requires graphical interface)
+  gpg           : GNU `pass` compatible credential storage (requires GPG and `pass`)
+  cache         : Git's in-memory credential cache
+  plaintext     : store credentials in plain-text files (UNSECURE)
+  none          : disable internal credential storage
+
+See https://aka.ms/gcm/credstores for more information.
+
+   at GitCredentialManager.CredentialStore.EnsureBackingStore() in /build/source/src/shared/Core/CredentialStore.cs:line 122
+   at GitCredentialManager.CredentialStore.Remove(String service, String account) in /build/source/src/shared/Core/CredentialStore.cs:line 48
+   at GitCredentialManager.Diagnostics.CredentialStoreDiagnostic.RunInternalAsync(StringBuilder log, IList`1 additionalFiles) in /build/source/src/shared/Core/Diagnostics/CredentialStoreDiagnostic.cs:line 59
+   at GitCredentialManager.Diagnostics.Diagnostic.RunAsync() in /build/source/src/shared/Core/Diagnostics/Diagnostic.cs:line 43
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential...Deleting test credential...
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /home/virajs/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /home/virajs/.local/.IdentityService/msal.cache
+KeyringCollection: 
+KeyringSchemaName: 
+KeyringSecretLabel: 
+KeyringAttribute1: (,)
+KeyringAttribute2: (,)
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

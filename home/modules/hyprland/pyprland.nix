@@ -11,7 +11,7 @@ in
 
   home.file.".config/hypr/pyprland.toml".text = ''
     [pyprland]
-    plugins = ["scratchpads"]
+    plugins = ["scratchpads","expose"]
 
     [scratchpads.term]
     animation = "fromTop"
@@ -27,6 +27,9 @@ in
     size = "75% 60%"
     max_size = "1920px 100%"
     margin = 50
+
+    [expose]
+    include_special = false
   '';
 
   

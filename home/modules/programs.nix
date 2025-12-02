@@ -8,6 +8,16 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  pnpm
+  mcphost
+  act
+  aria2
+  gdown
+  obs-studio
+  fuzzel
+  git-credential-manager
+  pciutils
+  usbutils
   yaak
   coursera-dl
   openssl
@@ -60,7 +70,6 @@ in {
     appimage-run
     saber
     marktext
-    ganttproject-bin
     gcc
     xemu
     gitkraken
