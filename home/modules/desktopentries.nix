@@ -37,15 +37,6 @@ in {
       icon = "vscode";
       terminal = false;
     };
-    udemy = {
-      name = "Udemy";
-      genericName = "Web App";
-      comment = "Use Udemy like an app";
-      exec = "${browser} --app=\"https://www.udemy.com/join/login-popup/?passwordredirect=True\"";
-      icon = "udemy";
-      terminal = false;
-    };
-
     jupyterhub = {
       name = "Jupyter Hub";
       genericName = "Web App";
@@ -62,28 +53,12 @@ in {
       icon = "sonyliv";
       terminal = false;
     };
-    pw = {
-      name = "Physics Wallah";
+    mlb = {
+      name = "Machine Learning for Begginers";
       genericName = "Web App";
-      comment = "Use Sony Liv like an app";
-      exec = "${chromium} --app=https://www.pw.live/study/batches/study";
-      icon = "sonyliv";
-      terminal = false;
-    };
-    kavita = {
-      name = "Kavita";
-      genericName = "Web App";
-      comment = "Use Kavita like an app";
-      exec = "${chromium} --app=https://server.kavita/";
-      icon = "kavita";
-      terminal = false;
-    };
-    nptel = {
-      name = "NPTEL";
-      genericName = "Web App";
-      comment = "Use NPTEL like an app";
-      exec = "${chromium} --app=https://swayam.gov.in/mycourses";
-      icon = "nptel";
+      comment = "Use MS-MLB like an app";
+      exec = "${chromium} --app=http://localhost:3000/";
+      icon = "microsoft";
       terminal = false;
     };
   };

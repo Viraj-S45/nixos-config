@@ -8,6 +8,9 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  gnupg
+  sipsak
+  curl
   pnpm
   mcphost
   act
@@ -110,7 +113,6 @@ in {
     # ─────────────────────────────────────────────
     # 🧰 System Tools / Utilities
     # ─────────────────────────────────────────────
-    gnupg # qutebrowser - GPG encryption/signing
     curl # Data transfer tool
     jq # ntfy notificaion script - JSON processor
     ripgrep # Fast grep replacement
