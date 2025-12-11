@@ -7,6 +7,7 @@
   ip = "192.168.1.104";
   hostnames = [
     "server.hedgedoc"
+    "server.obsidiandb"
     "server.mydylms"
     "server.uniclare"
     "server.whisperx"

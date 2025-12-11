@@ -1,5 +1,4 @@
-{ ... }:
-{ 
+{...}: {
   imports = [
     ./grub.nix
     ./general.nix
@@ -13,5 +12,6 @@
     ./virtualization.nix
     ./sql.nix
     ./flatpack.nix
+    ./niri.nix
   ];
 }

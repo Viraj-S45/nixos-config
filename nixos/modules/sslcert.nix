@@ -4,7 +4,7 @@
   lib,
   ...
 }: let
-  serverCert = pkgs.writeText "server-caddy-root.crt" (builtins.readFile ./certs/server-caddy-root.crt);
+  serverCert = pkgs.writeText "home.crt" (builtins.readFile ./certs/home.crt);
 in {
   imports = [];
   security.pki.certificateFiles = [

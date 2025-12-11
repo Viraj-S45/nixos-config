@@ -8,41 +8,48 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
-  gnupg
-  sipsak
-  curl
-  pnpm
-  mcphost
-  act
-  aria2
-  gdown
-  obs-studio
-  fuzzel
-  git-credential-manager
-  pciutils
-  usbutils
-  yaak
-  coursera-dl
-  openssl
-  pomodoro-gtk
-  uv
-  docker-buildx
-  chromedriver
-  pyright
-  ruff
-  lua-language-server
-  lua
-  lua51Packages.luarocks
-  libffi
-  zlib
-  ncurses
+  python313Packages.pyqt6
+  qutebrowser-qt5
+  pwgen
+    awscli
+    sshfs
+    libsForQt5.okular #
+    kdePackages.dolphin
+    gnupg
+    sipsak
+    curl
+    pnpm #
+    mcphost
+    act
+    aria2
+    gdown
+    obs-studio
+    fuzzel
+    git-credential-manager
+    pciutils
+    usbutils
+    yaak
+    coursera-dl
+    openssl
+    pomodoro-gtk
+    uv
+    docker-buildx
+    chromedriver
+    pyright
+    ruff
+    lua-language-server
+    lua
+    lua51Packages.luarocks
+    libffi
+    zlib
+    ncurses
 
-  readline
-  neovim
-  python312Packages.jupyterlab
-  vscode
-  windsurf
-  zellij
+    readline
+    neovim
+    python312Packages.jupyterlab
+    vscode
+    windsurf
+    zellij
     python313Packages.tkinter
     pyenv
     opencommit
