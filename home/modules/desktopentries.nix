@@ -33,7 +33,7 @@ in {
       name = "VSServer";
       genericName = "Web App";
       comment = "Use VS Code like an app";
-      exec = "${browser} --app=https://server.vscode/";
+      exec = "${browser} --app=https://vscode.viraj.top";
       icon = "vscode";
       terminal = false;
     };

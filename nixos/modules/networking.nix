@@ -7,6 +7,15 @@
   ip = "192.168.1.104";
   hostnames = [
     "server.hedgedoc"
+    "vikunja.viraj.top"
+    "brave.viraj.top"
+    "portainer.viraj.top"
+    "n8n.viraj.top"
+    # "nextcloud.viraj.top"
+    "vscode.viraj.top"
+    "bitwarden.viraj.top"
+    "localvscode.viraj.top"
+    "nginx.viraj.top"
     "server.obsidiandb"
     "server.mydylms"
     "server.uniclare"

@@ -8,7 +8,7 @@
     ./syspkgs.nix
     ./hyprland.nix
     ./fonts.nix
-    ./sslcert.nix
+    # ./sslcert.nix
     ./virtualization.nix
     ./sql.nix
     ./flatpack.nix

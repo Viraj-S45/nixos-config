@@ -8,6 +8,8 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  invidious
+  compose2nix
   python313Packages.pyqt6
   qutebrowser-qt5
   pwgen

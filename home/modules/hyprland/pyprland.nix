@@ -22,7 +22,7 @@ in
     margin = 50
     [scratchpads.altterm]
     animation = "fromTop"
-    command = "alacritty --class AlacrittyDropTerm -e ssh virajs@192.168.1.104"
+    command = "alacritty --class AlacrittyDropTerm -e ssh virajs-server@192.168.1.104"
     class = "AlacrittyDropTerm"
     size = "75% 60%"
     max_size = "1920px 100%"
