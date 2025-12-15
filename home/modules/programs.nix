@@ -8,6 +8,8 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  jetbrains.idea-community
+  jetbrains.jdk
   invidious
   compose2nix
   python313Packages.pyqt6
