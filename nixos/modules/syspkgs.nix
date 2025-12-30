@@ -9,5 +9,7 @@
   environment.systemPackages = with pkgs; [
     vim
     wget
+    age
+    agenix-cli
   ];
 }

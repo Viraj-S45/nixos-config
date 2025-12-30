@@ -10,6 +10,8 @@
     "vikunja.viraj.top"
     "brave.viraj.top"
     "portainer.viraj.top"
+    "beszel.viraj.top"
+    "metube.viraj.top"
     "n8n.viraj.top"
     # "nextcloud.viraj.top"
     "vscode.viraj.top"

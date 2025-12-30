@@ -9,6 +9,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     stylix.url = "github:danth/stylix/release-25.05";
+    sops-nix = {
+      url = "github:Mic92/sops-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {
@@ -17,14 +21,17 @@
     unstable,
     home-manager,
     stylix,
+    sops-nix,
     ...
   } @ inputs: {
     nixosConfigurations = {
       virajs = nixpkgs.lib.nixosSystem {
+        specialArgs = {inherit inputs;};
         modules = [
           ./nixos/configuration.nix
           stylix.nixosModules.stylix
           home-manager.nixosModules.home-manager
+          sops-nix.nixosModules.sops
           {
             home-manager = {
               useGlobalPkgs = true;

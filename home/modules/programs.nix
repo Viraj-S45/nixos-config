@@ -8,6 +8,7 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+  moodle
   jdk23
   jetbrains.idea-community
   invidious
