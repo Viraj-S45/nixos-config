@@ -61,5 +61,13 @@ in {
       icon = "microsoft";
       terminal = false;
     };
+    helium = {
+      name = "Helium";
+      comment = "Helium AppImage";
+      exec = "${pkgs.appimage-run}/bin/appimage-run /home/virajs/app-images/helium-0.11.3.2-x86_64.AppImage";
+      icon = "helium"; # Or use a custom icon path
+      terminal = false;
+      categories = ["Utility" "Application"];
+    };
   };
 }

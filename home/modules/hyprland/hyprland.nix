@@ -1,18 +1,21 @@
-{ config, pkgs, ... }:
 {
+  config,
+  pkgs,
+  ...
+}: {
   imports = [
     ./conf
-#   ./conf/monitor.nix
-#   ./conf/cursor.nix
-#   ./conf/keyboard.nix
-#   ./conf/keybinding.nix
-#   ./conf/autostart.nix
-#   ./conf/window.nix
-#   ./conf/decoration.nix
-#   ./conf/workspace.nix
-#   ./conf/misc.nix
-#   ./conf/windowrule.nix
-#   ./conf/animation.nix
+    #   ./conf/monitor.nix
+    #   ./conf/cursor.nix
+    #   ./conf/keyboard.nix
+    #   ./conf/keybinding.nix
+    #   ./conf/autostart.nix
+    #   ./conf/window.nix
+    #   ./conf/decoration.nix
+    #   ./conf/workspace.nix
+    #   ./conf/misc.nix
+    #   ./conf/windowrule.nix
+    #   ./conf/animation.nix
   ];
   home.packages = with pkgs; [
     pyprland
@@ -23,6 +26,11 @@
     hyprland = {
       enable = true;
       package = pkgs.hyprland;
+      # extraConfig = ''
+      #   # Source HyprMod GUI config file
+      #   source = /home/virajs/.config/hypr/hyprland-gui.conf
+      # '';
+
       settings = {
         env = [
           "XCURSOR_THEME,Bibata-Modern-Ice"
@@ -30,8 +38,8 @@
           "HYPRCURSOR_THEME,Bibata-Modern-Ice"
           "HYPRCURSOR_SIZE,24"
 
-#           "XCURSOR_SIZE,24"
-#           "HYPRCURSOR_SIZE,24"
+          #           "XCURSOR_SIZE,24"
+          #           "HYPRCURSOR_SIZE,24"
         ];
         device = {
           name = "epic-mouse-v1";
@@ -45,7 +53,4 @@
     enable = true;
     package = pkgs.hyprlock;
   };
-
-
-
 }

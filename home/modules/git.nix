@@ -11,9 +11,9 @@
   programs = {
     git = {
       enable = true;
-      userName = "viraj-sh";
-      userEmail = "virajs45@proton.me";
-      extraConfig = {
+      settings.user.name = "viraj-sh";
+      settings.user.email = "virajs45@proton.me";
+      settings = {
         init.defaultBranch = "main";
         pull.rebase = false;
         credential.helper = "manager";

@@ -12,11 +12,11 @@
   services.hyprsunset = {
     enable = true;
     package = pkgs.hyprsunset;
-    transitions = {
+    settings = {
       alwaysOn = {
         calendar = "*-*-* *:*:00";
         requests = [
-          ["temp" "3500"]
+          {temp = "3500";}
         ];
       };
     };

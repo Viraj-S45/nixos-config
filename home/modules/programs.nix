@@ -8,17 +8,38 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
-  moodle
-  jdk23
-  jetbrains.idea-community
-  invidious
-  compose2nix
-  python313Packages.pyqt6
-  qutebrowser-qt5
-  pwgen
-    awscli
+  kdePackages.filelight
+  virtiofsd
+  figma-linux
+  libreoffice
+  patchelf
+  pipx
+    gemini-cli
+    microsoft-edge
+    antigravity
+    direnv
+    sqlite
+    kind
+    kubectl
+    localstack
+    poppins
+    dive
+    nodejs_24
+    redis
+    R
+    # rPackages.text
+    # rPackages.tidytext
+    # rPackages.dplyr
+    # rPackages.readr
+    pdfgrep
+    cargo
+    tesseract
+    poppler-utils
+    jetbrains.idea-oss
+    compose2nix
+    # qutebrowser-qt5
+    pwgen
     sshfs
-    libsForQt5.okular #
     kdePackages.dolphin
     gnupg
     sipsak
@@ -34,12 +55,11 @@ in {
     pciutils
     usbutils
     yaak
-    coursera-dl
     openssl
     pomodoro-gtk
     uv
     docker-buildx
-    chromedriver
+
     pyright
     ruff
     lua-language-server
@@ -48,62 +68,30 @@ in {
     libffi
     zlib
     ncurses
-
     readline
     neovim
     python312Packages.jupyterlab
     vscode
-    windsurf
-    zellij
-    python313Packages.tkinter
-    pyenv
-    opencommit
-    httptoolkit
     jadx
     apktool
-    python313 # Python 3.13
-    python313Packages.jupyterhub
-    mitmproxy2swagger
-    mitmproxy
     gh
     git-hub
-    kdePackages.kdeconnect-kde
     docker-compose
     gnumake
     alejandra
-    rclone
-    flameshot
-    pcsx2
-    logseq
-    pgadmin4
     dbeaver-bin
-    pgadmin
-    google-chrome
-    zettlr
-    siyuan
     nvpy
     appimage-run
-    saber
-    marktext
     gcc
-    xemu
-    gitkraken
-    postman
     yt-dlp
     ffmpeg
     vlc
     imagemagick
     bruno
-    hugo
     kicad
-    arduino-ide
-    arduino
     fritzing
-    freecad-wayland
-    nodejs_24
     wakeonlan
     nps
-    gemini-cli
 
     # ─────────────────────────────────────────────
     # 🖥️ Desktop Environment / UI Tools
@@ -134,7 +122,6 @@ in {
     gparted # Partition editor
     btop # Resource monitor
     fastfetch # System info fetch
-    stacer # System optimizer
     xfce.thunar # File manager
     xfce.thunar-volman # Removable devices plugin
     xfce.thunar-archive-plugin # file context menu for archives
@@ -146,35 +133,29 @@ in {
     lazygit # Git TUI
     lazydocker # Docker TUI
     fzf # zsh - Fuzzy finder
-    #       zoxide                   # zsh - Smarter cd command
-    virtualenv # Python envs
-    direnv
-    python313Packages.aw-client # ActivityWatch client
+    # python313
+    python312
     wf-recorder
 
     # ─────────────────────────────────────────────
     # 🌐 Web / Cloud / Network Tools
     # ─────────────────────────────────────────────
     ntfy-sh # Push notifications (CLI)
-    barrier # Software KVM
     betterdiscordctl # BetterDiscord installer
     nextcloud-client
     discord # Chat app
     spotify # Music streaming
-    github-desktop # GitHub GUI
     chromium # Web browser
 
     # ─────────────────────────────────────────────
     # 🔐 Security / Password Management
     # ─────────────────────────────────────────────
     bitwarden-desktop # GUI password manager
-    bitwarden-cli # CLI password manager
 
     # ─────────────────────────────────────────────
     # 📦 App Installers / Package Utilities
     # ─────────────────────────────────────────────
     compose2nix # Docker Compose → Nix
-    stacer # System monitor / optimizer
     overskride # Bluetooth manager (Wayland-friendly)
 
     # ─────────────────────────────────────────────
@@ -183,15 +164,13 @@ in {
     gimp # Image editor
     mpv # Media player
     kdePackages.ark # Archive manager
-    libsForQt5.okular # PDF viewer
-    qtscrcpy # Android mirroring
 
     # ─────────────────────────────────────────────
     # 📝 Notes / Productivity
     # ─────────────────────────────────────────────
     obsidian # Markdown notes
     p3x-onenote # Unofficial OneNote client
-    libreoffice-qt6-fresh # Office suite
+    # libreoffice-qt6-fresh # Office suite
 
     # ─────────────────────────────────────────────
     # 🎵 Music & Audio Tools

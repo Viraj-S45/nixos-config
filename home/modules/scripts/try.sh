@@ -1,11 +1,23 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-TYPE="${1:-}"
-MODE="${2:-add}"
+# Parse --update flag
+UPDATE_CACHE=false
+ARGS=()
+for arg in "$@"; do
+  if [[ "$arg" == "--update" ]]; then
+    UPDATE_CACHE=true
+  else
+    ARGS+=("$arg")
+  fi
+done
+
+# Use the filtered arguments
+TYPE="${ARGS[0]:-}"
+MODE="${ARGS[1]:-add}"
 
 if [[ "$TYPE" != "home" && "$TYPE" != "system" ]]; then
-  echo "Usage: $0 [home|system] [add|remove]"
+  echo "Usage: $0 [--update] [home|system] [add|remove]"
   exit 1
 fi
 
@@ -40,6 +52,15 @@ if [[ "$MODE" == "remove" ]]; then
 else
   read -rp "Search package: " query
   [[ -z "$query" ]] && { echo "Empty search."; exit 1; }
+
+  # Refresh cache if --update flag is set or cache is older than 7 days
+  if [[ "$UPDATE_CACHE" == true ]]; then
+    echo "Updating package cache (forced)..."
+    nps --refresh --quiet
+  elif [[ ! -d ~/.nix-package-search ]] || [[ $(find ~/.nix-package-search -name "*.json" -mtime +7 2>/dev/null | head -1) ]]; then
+    echo "Package cache is older than a week. Use --update to refresh now, or continuing with cached results..."
+    sleep 1
+  fi
 
   # Extract list of currently added packages
   EXISTING=$(grep -A1000 "$MARKER_ESCAPED" "$FILE" | sed -n '/\[/,/\]/p' | grep -v '\[' | grep -v '\]' | sed 's/^[[:space:]]*//')

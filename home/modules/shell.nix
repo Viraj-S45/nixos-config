@@ -18,7 +18,7 @@ in {
     enable = true;
     package = pkgs.bashInteractive;
     enableCompletion = true;
-      # Add this:
+    # Add this:
     bashrcExtra = ''
       export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
       export PATH=~/bin:$PATH
@@ -38,8 +38,10 @@ in {
 
       # Nix Package script command
       hpa = "/home/virajs/nixos-config/home/modules/scripts/try.sh home add";
+      hpa-update = "/home/virajs/nixos-config/home/modules/scripts/try.sh --update home add";
       hpr = "/home/virajs/nixos-config/home/modules/scripts/try.sh home remove";
       spa = "/home/virajs/nixos-config/home/modules/scripts/try.sh system add";
+      spa-update = "/home/virajs/nixos-config/home/modules/scripts/try.sh --update system add";
       spr = "/home/virajs/nixos-config/home/modules/scripts/try.sh system remove";
 
       # NixOS rebuild with flake path

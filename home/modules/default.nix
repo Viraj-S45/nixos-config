@@ -19,10 +19,10 @@ in {
     ./wlogout.nix
     ./cliphist.nix
     ./desktopentries.nix
-    ./aw.nix
+    # ./aw.nix
     ./waybar
     ./git.nix
-    ./emacs.nix
+    # ./emacs.nix
     ./gtk.nix
     ./shell.nix
   ];

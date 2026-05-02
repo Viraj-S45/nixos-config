@@ -8,6 +8,8 @@ in {
   imports = [];
 
   home.packages = with pkgs; [
+    chromedriver
+
     brave
   ];
   programs.chromium.enable = true;

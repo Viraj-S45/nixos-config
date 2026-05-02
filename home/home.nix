@@ -12,7 +12,7 @@ in {
   home = {
     username = "virajs";
     homeDirectory = "/home/virajs";
-    stateVersion = "25.05";
+    stateVersion = "25.11";
     file = {};
     sessionVariables = {};
   };

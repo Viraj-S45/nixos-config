@@ -4,7 +4,11 @@
   ...
 }: {
   environment.systemPackages = with pkgs; [
+    docker-buildx
+    buildkit
   ];
+
+  programs.virt-manager.enable = true;
 
   virtualisation = {
     libvirtd.enable = true;
